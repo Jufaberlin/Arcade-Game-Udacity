@@ -1,7 +1,7 @@
-let tileWidth = 101;
-let tileHeight = 83;
-let enemyWidth = 101;
-let playerWidth = 83;
+const tileWidth = 101;
+const tileHeight = 83;
+const enemyWidth = 101;
+const playerWidth = 83;
 let countWin = 0;
 let countLoose = 0;
 
@@ -109,15 +109,12 @@ class Player {
         // the better you get the more bugs will appear
         const enemy10 = new Enemy (-150, 218);
         allEnemies.push(enemy10);
-              // unfortunately the setTimeout makes the countWin to go up to more than 200. unfortunately I didn't come a solution in time. I'd be thankful for your help! :)
-        // setTimeout(function() {
-          player.x = 200;
-          player.y = 384;
-        // }, 500);
+        this.x = 200;
+        this.y = 384;
         if (countWin === 3) {
           score.innerHTML = "You won!!!";
           score.style.color = "red";
-          // when you win the amount of bugs will be set to 9 again
+          // when you win the amount of bugs will be set to the initial 9 again
           allEnemies.splice(9, 3);
           setTimeout(function() {
             countWin = 0;

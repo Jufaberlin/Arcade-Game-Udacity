@@ -10,8 +10,12 @@ This is a project for the Udacity Front-End Web Developer Nanodegree program.
 
 ## Game Instructions
 
-This is a classical Arcade Game. The player tries to get to the water fields without beeing hit by the bugs. Each time the player wins one additional bug will appear. The player wins the game by getting to the water the third time. He looses by getting hit by a bug the third time.
-After the player wins or looses the bugs will come to the initial amount of 9 again.
+This is a classical Arcade Game. To play the game you use the arrow keys to make the figure go up, down, left and right. Try to get the figure to the water fields without beeing hit by the bugs. Each time you win one additional bug will appear. You win the game by getting to the water fields the third time. You loos by getting hit by a bug the third time.
+After the figure wins or looses the bugs will come to the initial amount of 9 again.
+
+To play the game you need to download the zip file and extract the files in the destination folder. Click on the index.html file to open the game in your browser.
+
+Good luck!
 
 ## Sources
 
